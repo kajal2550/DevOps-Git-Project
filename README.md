@@ -1,8 +1,7 @@
-# DevOps Git Project
+ # DevOps Git Project
 
 ## 📌 Project Overview
-This project demonstrates version control using Git and GitHub.  
-The tasks include branching, committing, merging, handling a merge conflict, and pushing changes to a remote repository.
+This project demonstrates version control using Git and GitHub. The tasks include branching, committing, merging, handling a merge conflict, and pushing changes to a remote repository.
 
 ---
 
@@ -13,32 +12,50 @@ The tasks include branching, committing, merging, handling a merge conflict, and
 
 ---
 
-### 🔀 Git Workflow Steps Performed
+### 🔀 Git Workflow Steps
 
-1. Initialize Git Repository (`git init`)
-2. Created multiple branches:
-   - feature
-   - test
-   - bugfix
-   - experiment
-3. Updated code in each branch and made commits.
-4. Performed merging operations.
-5. Faced a merge conflict and solved it manually.
-6. Connected GitHub remote (`git remote add origin`)
-7. Pushed project and all branches to GitHub.
+| Step | Command Used |
+|------|-------------|
+| Initialize repository | `git init` |
+| Check repo status | `git status` |
+| Add files | `git add .` |
+| Commit changes | `git commit -m "message"` |
+| Create branches | `git branch feature`, `git branch test`, `git branch bugfix`, `git branch experiment` |
+| Switch branch | `git checkout branchname` |
+| Merge branches | `git merge branchname` |
+| Resolve conflict | Manual edit + `git add` + `git commit` |
+| Add remote origin | `git remote add origin <URL>` |
+| Push code | `git push -u origin master` |
 
 ---
 
 ### 🧪 Merge Conflict
-
-A merge conflict occurred during merging of the `test` branch.  
-Conflict was resolved by editing the file manually and committing the resolution.
+A merge conflict occurred while merging the `test` branch. The issue was resolved manually by editing `index.html` and then committing the resolution.
 
 ---
 
-### 📈 Commit History Graph
+### 📈 Commit History Command
+
+
 git log --oneline --graph --all
 
+
+---
+
+### 🖼 Project Screenshots
+(*Screenshots will be added here later*)
+
+#### 📌 Branches Screenshot
+![Branches](branches.png)
+
+#### 📌 Merge Conflict Screenshot
+![Merge Conflict](merge-conflict.png)
+
+#### 📌 Final Output Screenshot
+![Website Output](output.png)
+
+#### 📌 GitHub Repository Screenshot
+![GitHub Repo](repo.png)
 
 ---
 
@@ -48,6 +65,12 @@ git log --oneline --graph --all
 - Handling merge conflicts
 - Working with remote repositories
 - Practical exposure to version control workflows
+
+---
+
+### ✔ Conclusion
+
+This project helped me gain hands-on experience in Git branching, merging, and managing repositories using GitHub. It improved my understanding of version control concepts and real-world collaboration workflows.
 
 ---
 
