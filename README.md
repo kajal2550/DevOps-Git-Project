@@ -44,18 +44,28 @@ git log --oneline --graph --all
 
 ### 🖼 Project Screenshots
 (*Screenshots will be added here later*)
+ 
+ ## 📸 Project Screenshots
 
-#### 📌 Branches Screenshot
-![Branches](branches.png)
+### 🔹 Branches Screenshot  
+![Branches](branch-list.png)
 
-#### 📌 Merge Conflict Screenshot
-![Merge Conflict](merge-conflict.png)
+---
 
-#### 📌 Final Output Screenshot
-![Website Output](output.png)
+### 🔹 Merge Conflict Screenshot  
+![Merge Conflict](merge-conflict-resolution.png)
 
-#### 📌 GitHub Repository Screenshot
-![GitHub Repo](repo.png)
+---
+
+### 🔹 Final Output Screenshot  
+![Website Output](final-project-output.png)
+
+---
+
+### 🔹 GitHub Repository Screenshot  
+![GitHub Repo](github-repository-final.png)
+
+
 
 ---
 
